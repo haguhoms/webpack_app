@@ -1,7 +1,5 @@
 import webpack from 'webpack'
 
-require('babel-polyfill');
-
 module.exports = [
     {
         entry: './src/js/app.js',
