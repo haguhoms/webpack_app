@@ -1,6 +1,7 @@
 export default class Common {
+  constructor() {
+    super();
 
-  constructor(props) {
     this.PI = Math.PI;
 
     this.initialize();
