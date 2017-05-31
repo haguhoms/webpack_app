@@ -1,7 +1,6 @@
 require('../scss/app.scss');
 import 'babel-polyfill';
 import $ from 'jquery';
-import Application from './util/application';
 import FirstAnimator from './first_animator';
 
 const first = new FirstAnimator();
